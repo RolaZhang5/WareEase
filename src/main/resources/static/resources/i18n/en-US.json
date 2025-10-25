@@ -1,0 +1,67 @@
+{
+  "common": { "ok": "OK", "cancel": "Cancel", "search":"Search", "prev":"Prev", "next":"Next" },
+  "table": { "user":"User", "email":"Email", "noData": "No data"  },
+  "upload": { "choose":"Choose File", "upload":"Upload", "default":"Click to upload" },
+  "dialog": { "title":"Notice" },
+  "header": {
+    "welcome": "WMS",
+    "clearCache": "Clear Cache",
+    "lock": "Lock",
+    "profile": "Profile",
+    "changePwd": "Change Password",
+    "logout": "Sign Out",
+    "crm": "WMS",
+    "hello": "Hello",
+    "welback": "welcome back"
+  },
+  "home": {
+    "dashboard": "Dashboard",
+    "noAlarm": "No items in alarm!",
+    "searchPlaceholder": "Search page or feature"
+  },
+  "form": {
+    "submit": "Submit",
+    "reset": "Reset",
+    "required": "This field is required",
+    "placeholder": "Please enter"
+  },
+  "pager": { "prev": "Prev", "next": "Next" },
+  "login": {
+    "usernameLabel": "Username",
+    "usernamePlaceholder": "Please enter username",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Please enter password",
+    "captchaLabel": "Captcha",
+    "captchaPlaceholder": "Please enter captcha",
+    "submit": "Sign In"
+  },
+  "title": {
+    "adminTemplate": "Admin Template 2.0"
+  },
+  "brand": {
+    "wms": "WMS"
+  },
+  "user": {
+    "profile": "Profile",
+    "changePwd": "Change Password",
+    "logout": "Sign Out"
+  },
+  "sidebar": {
+    "myAvatar": "My Avatar",
+    "search": {
+      "placeholder": "Search pages or features"
+    }
+  },
+  "nav": {
+    "home": "Dashboard"
+  },
+  "tab": {
+    "actions": "Page Actions",
+    "refresh": "Refresh Current",
+    "closeOthers": "Close Others",
+    "closeAll": "Close All"
+  },
+  "sidebar": {
+    "greeting": "Hello,{username}! Welcome back!"
+  }
+}

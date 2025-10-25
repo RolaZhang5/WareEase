@@ -1,0 +1,69 @@
+{
+  "header": {
+    "welcome": "仓库管理系统",
+    "clearCache": "清除缓存",
+    "lock": "锁屏",
+    "profile": "个人资料",
+    "changePwd": "修改密码",
+    "logout": "退出",
+    "crm": "仓库管理",
+    "hello": "你好",
+    "welback": "欢迎回来"
+  },
+  "home": {
+    "dashboard": "后台首页",
+    "noAlarm": "暂无预警商品！！！",
+    "searchPlaceholder": "搜索页面或功能"
+  },
+  "form": {
+    "submit": "立即提交",
+    "reset": "重置",
+    "required": "必填项不能为空",
+    "placeholder": "请输入"
+  },
+  "pager": { "prev": "上一页", "next": "下一页" },
+  "common": { "ok": "确定", "cancel": "取消", "search":"搜索", "prev":"上一页", "next":"下一页" },
+  "table": { "user":"用户", "email":"邮箱", "noData": "暂无数据" },
+  "upload": { "choose":"选择文件", "upload":"开始上传", "default":"点击上传" },
+  "dialog": { "title":"提示" },
+  "login": {
+    "usernameLabel": "用户名",
+    "usernamePlaceholder": "请输入用户名",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "captchaLabel": "验证码",
+    "captchaPlaceholder": "请输入验证码",
+    "submit": "登录"
+  },
+  "title": {
+    "adminTemplate": "layui后台管理模板 2.0"
+  },
+  "brand": {
+    "wms": "仓库管理"
+  },
+  "user": {
+    "profile": "个人资料",
+    "changePwd": "修改密码",
+    "logout": "退出"
+  },
+  "sidebar": {
+    "myAvatar": "我的头像",
+    "search": {
+      "placeholder": "搜索页面或功能"
+    }
+  },
+  "nav": {
+    "home": "后台首页"
+  },
+  "tab": {
+    "actions": "页面操作",
+    "refresh": "刷新当前",
+    "closeOthers": "关闭其他",
+    "closeAll": "关闭全部"
+  },
+  "sidebar": {
+    "greeting": "你好！{username}, 欢迎登录!"
+  }
+}
+
+
