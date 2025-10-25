@@ -1,0 +1,27 @@
+package com.wms.sys.vo;
+
+import com.wms.sys.entity.Role;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.Date;
+
+/**
+ * @Author: Tingting Zhang
+ * @Date: 2025/08/28 20:42
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+public class RoleVo extends Role {
+
+    private Integer page=1;
+    private Integer limit=10;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date startTime;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date endTime;
+
+}
