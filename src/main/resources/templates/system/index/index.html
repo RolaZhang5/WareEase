@@ -37,9 +37,9 @@
 					<li class="layui-nav-item" id="userInfo">
 						<a href="javascript:;"><img src="/resources/images/face.jpg" th:src="${'/file/showImageByPath?path='+session.user.getImgpath()}" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName" th:text="${session.user.name}"></cite></a>
 						<dl class="layui-nav-child">
-							<dd><a href="javascript:;" data-url="/sys/toUserInfo"><i class="seraph icon-ziliao" data-icon="icon-ziliao"></i><cite>个人资料</cite></a></dd>
-							<dd><a href="javascript:;" data-url="/sys/toChangePassword"><i class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite>修改密码</cite></a></dd>
-							<dd><a href="/sys/toSignOut" class="signOut"><i class="seraph icon-tuichu"></i><cite>退出</cite></a></dd>
+							<dd><a href="javascript:;" data-url="/sys/toUserInfo"><i class="seraph icon-ziliao" data-icon="icon-ziliao"></i><cite data-i18n="user.profile">个人资料</cite></a></dd>
+							<dd><a href="javascript:;" data-url="/sys/toChangePassword"><i class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite data-i18n="user.changePwd">修改密码</cite></a></dd>
+							<dd><a href="/sys/toSignOut" class="signOut"><i class="seraph icon-tuichu"></i><cite data-i18n="user.logout">退出</cite></a></dd>
 						</dl>
 					</li>
 					<li class="layui-nav-item">
@@ -70,7 +70,7 @@
 			<!-- 搜索 -->
 			<div class="layui-form component">
 				<select name="search" id="search" lay-search lay-filter="searchPage">
-					<option value="">搜索页面或功能</option>
+					<option value="" data-i18n="sidebar.search.placeholder">搜索页面或功能</option>
 					<option value="1">layer</option>
 					<option value="2">form</option>
 				</select>

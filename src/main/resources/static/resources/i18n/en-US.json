@@ -50,7 +50,8 @@
     "myAvatar": "My Avatar",
     "search": {
       "placeholder": "Search pages or features"
-    }
+    },
+    "greeting": "Hello,{username}! Welcome back!"
   },
   "nav": {
     "home": "Dashboard"
@@ -60,8 +61,5 @@
     "refresh": "Refresh Current",
     "closeOthers": "Close Others",
     "closeAll": "Close All"
-  },
-  "sidebar": {
-    "greeting": "Hello,{username}! Welcome back!"
   }
 }
